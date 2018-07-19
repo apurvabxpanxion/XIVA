@@ -1,0 +1,16 @@
+.btn-linkedin{
+    background-image: url(/.assets/linkedin.png) !important;
+    background-repeat: no-repeat;
+}
+input[type='email'], input[type='password']{
+    height: 40px;
+    width: 100% !important; 
+    margin: 0px !important; 
+
+}
+.modal button.btn.btn-green {
+    width: 100%;
+}
+.hr {
+    margin: 13px 28px;
+}

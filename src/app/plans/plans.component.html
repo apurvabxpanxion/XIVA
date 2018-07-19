@@ -1,0 +1,50 @@
+<section class="plans-feature">
+    <div class="container-fluid plans-feature">
+      <div class="text-center">
+        <h2 class="text-center features">Features And Benefits</h2>
+        <hr/>
+      </div>
+      <div class="row">
+        <section>
+          <div class="col-sm-3 circle_align">
+            <div (click)="toggleFunction(1)" class="circle " data-toggle="collapse" [ngClass]="{'circleFocus':toggle_1 == true}"  data-target="#feature1"></div>
+          </div>
+          <div class="col-sm-3 circle_align">
+            <div (click)="toggleFunction(2)" class="circle" [ngClass]="{'circleFocus':toggle_2 == true}" data-toggle="collapse" data-target="#feature2"></div>
+          </div>
+          <div class="col-sm-3 circle_align">
+            <div (click)="toggleFunction(3)" class="circle" [ngClass]="{'circleFocus':toggle_3 == true}" data-toggle="collapse" data-target="#feature3"></div>
+          </div>
+        </section>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+                &nbsp;
+              </div>
+        <div class="col-sm-6">
+          <div *ngIf="toggle_3 == true" id="feature3"  class="collapse slide_content">
+                 3.  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </div>
+          <div *ngIf="toggle_2 ==true"  id="feature2"  class="collapse slide_content">
+                 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+          <div *ngIf="toggle_1 == true"  id="feature1" class="collapse slide_content">
+                  1.  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+        </div>
+        <div class="col-sm-3">
+              &nbsp;
+            </div>
+      </div>
+    </div>
+  </section>
+  
+    

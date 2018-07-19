@@ -1,0 +1,417 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Lato',helvetica,sans-serif;
+    background-color: #FFFFFF !important;
+}
+header .navbar {
+    margin: 0;
+    border: none;
+}
+  header {
+    padding: 19px 0 5px;
+}
+
+
+.btn.btn-green {
+    border: 2px solid #000000;
+}
+.btn.btn-green.btn-stroke:hover{
+    background-color:  #000000;
+    color:#fff;
+}
+.btn.btn-green.btn-stroke{
+    background-color: transparent;
+    color:#000000;
+    font-size: 14px;
+    font-weight: bold;
+}
+.navbar .nav li {
+    padding: 5px 12px;
+}
+@media (min-width: 768px){
+.navbar-right {
+    float: right !important;
+    margin-right: -15px;
+}
+}
+.row.flex {
+    display: flex;
+}
+.row.flex>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main.container-fluid {
+    margin-top: 5%;
+}
+@media (max-width: 992px){
+    main.container-fluid {
+        margin-top: 0%;
+    }
+ }
+main .first-screen {
+    padding-bottom: 30px;
+}
+.font40 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+@media (max-width: 992px){
+    .font40 {
+        margin-bottom: 0px;
+        font-size: 28px;
+        text-align: center;
+    }
+ }
+ 
+
+ .btn.btn-green{
+    color: #FFFFFF;
+    background-color: #000000;
+    border-color: #000000;
+}
+@media (max-width: 992px){
+    .btn.btn-green{
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+ }
+.btn.btn-big {
+    padding: 10px 30px;
+}
+@media (max-width: 992px){
+    btn.btn-big {
+        padding: 8px 17px;
+    }
+ }
+.btn.btn-green:hover {
+    background-color: #000000;
+    border-color: #000000;
+    color:#fff !important;
+}
+@media (max-width: 480px){
+main .first-screen img {
+    width: 100%;
+    margin-left: 0;
+}
+}
+@media (max-width: 480px)
+{
+.row.flex {
+    flex-direction: column;
+}
+}
+@media (max-width: 480px){
+section.gray-background.first-screen{
+    margin-top: 15%;
+}
+}
+/* .modal .modal-dialog {
+    max-width: 380px;
+}
+@media (min-width: 768px)
+{
+.modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+}
+}
+.modal {
+    margin-top: 100px;
+}
+.modal .modal-body .btn {
+    width: 100%;
+} */
+
+.hr {
+    width: 86%;
+    position: relative;
+    text-align: center;
+    margin: 3px 28px;
+    color: #FFC74C;
+}
+.hr::after {
+    content: "";
+    height: 1px;
+    background-color: #B0BCC1;
+    width: 100%;
+    position: absolute;
+    top: 49%;
+    left: 0;
+    z-index: 0;
+}
+.hr small {
+    display: inline-block;
+    background-color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 100px;
+    z-index: 4;
+    position: relative;
+    font-weight: 400;
+    color: #B0BCC1;
+    padding: 0 3px;
+}
+.btn {
+    border-width: 2px;
+    text-transform: uppercase;
+    outline: none !important;
+    line-height: 24px;
+}
+/* .modal .modal-body {
+    padding: 25px;
+}
+input[type='email'], input[type='password'] {
+    height: 40px;
+    width: 87%;
+    margin: 16px 26px;
+}
+.modal button.btn.btn-green{
+    width: 87%;
+}
+.modal .modal-body small {
+    color: #B0BCC1;
+} */
+.text-center{
+    text-align: center;
+}
+/* .modal .text-center{
+    font-size: 13px;
+    margin: 17px 0px;
+}
+em.gray-background {
+    
+    position: relative;
+    top: 30px;
+}
+.modal .modal-body .btn-group {
+        display: flex;
+    }
+.signup-form input[type='email'],.signup-form input[type='password'] {
+    width: 100%;
+    margin: 0px; 
+}
+.modal-body.signup-form .btn.btn-green{
+    width: 100%;
+} */
+
+a.btn.btn-green.btn-big{
+    color:#fff !important;
+}
+/* .modal .modal-body .btn-group .btn {
+    background: #4e0338;
+    border-color: #4e0338;
+    color: #fff;
+}
+ .modal .modal-body .btn-group .btn:hover {
+    background-color: #000000;
+    border-color: #4e0338;
+    color:#fff;
+}
+[data-toggle="buttons"]>.btn input[type="radio"]{
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none;
+
+} */
+
+li.clients{
+    list-style-type: none;
+    margin-top: 35px;
+    margin-left: -1%;
+    margin-bottom: 35px;
+}
+
+@media (max-width: 992px){
+    li.clients {
+        margin-top: 0px;
+        margin-right: 14%; 
+ }
+}
+.interview-features{
+    background-color: #fff;
+}
+
+/* .section-block-main {
+    margin: 40px 0;
+    padding: 20px 0 20px 70px;
+    border-top: 1px solid #B0BCC1;
+    border-bottom: 1px solid #B0BCC1;
+    font-size: 24px;
+    color: #4e0338;
+    position: relative;
+}
+.featureRow{
+    margin-top: 6%;
+} */
+/* @media (max-width: 480px)
+{
+.col-md-6>h2{
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+}
+}
+.section-list ul li {
+    font-size: 16px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+a.btn.btn-green.btn-big.section-btn-big{
+    margin-top: 6%;
+}
+@media (max-width: 480px)
+{
+a.btn.btn-green.btn-big.section-btn-big{
+    margin-top: 4%;
+    margin-right: 15%;
+    margin-bottom: 8%;
+}
+}
+.bulbAlign{
+    position: relative;
+    right: 50px;
+}
+iframe{
+    position: absolute;
+    width: 422px;
+    height: 266px;
+    left: 82px;
+    bottom: 69px;
+}
+.features-benefits table {
+    margin-top: 50px;
+    border-collapse: collapse;
+    width: 100%;
+}
+table {
+    background-color: transparent;
+}
+
+ .features-benefits {
+    padding-top: 70px;
+    padding-bottom: 100px;
+    background: url(assets/transparentbg.jpg) no-repeat top center transparent;
+    background-size: cover;
+    color: #fff;
+}
+.features-benefits table td {
+    border: 1px solid #ccc;
+    padding: 40px 25px;
+    line-height: 24px;
+    font-size:18px;
+}
+.features-benefits table td .eh-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+    display: block;
+}
+.features-benefits table td.center-td {
+    font-size: 22px;
+    line-height: 30px;
+    padding: 40px;
+}
+.advertiseSignup{
+    margin-bottom: 5%;
+}
+@media (max-width: 480px)
+{
+    .features-benefits{
+        overflow-x:auto;
+    }
+
+}
+@media (max-width: 480px)
+{
+    .featureAlign{
+        margin-bottom: 40px;
+    }
+
+} */
+
+
+/************************Plans***********************************/
+
+  /*************************************************************/
+/* .awards-reviews {
+    padding-top: 50px;
+    overflow-x: hidden;
+    
+}
+div.message{
+    font-size: 34px;
+    color: #fff;
+    margin-bottom: 5%;
+    
+}
+.testimony{
+    border: 1px solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 25%;
+    background-position: 20px 1px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: url(assets/testti3.jpg);
+}
+.col-md-8.col-sm-8.reviews.hidden-xs{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+.clientmessage{
+    padding: 13px;
+    text-align: justify;
+    font-size: 17px;
+    font-style: italic;
+}
+@media (max-width: 480px)
+{
+    div.message{
+        font-size: 30px;
+    }
+
+}
+@media (max-width: 480px)
+{
+    a.btn.btn-green.btn-big{
+        margin-left: 20%;
+        
+    }
+
+} */
+
+/***********************Footer******************************************/
+/* 
+@media (max-width: 480px)
+{
+    .footerLogo{
+        font-size: 11px;
+        
+    }
+
+}
+footer ul {
+    margin-left: -24%;
+}
+@media (max-width: 480px)
+{
+    footer ul.contact {
+        margin-left: -9%;
+        
+    }
+
+} */
+/*************************Dashboard**********************************/
+
+
+/*******************Fonts**********************************/
+.banner_text {
+    font-family: Tungsten Rounded,sans-serif;
+    font-size: 9vw;
+    line-height: .78;
+    font-weight: 600;
+    text-transform: uppercase;
+}

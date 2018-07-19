@@ -1,0 +1,52 @@
+<div class="eh-app">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Hello, <i>Apurva Burde</i></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <div id="actionsMenu" class="eh_actions_menu">
+        <div class="plus-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="glyphicon glyphicon-plus"></span>
+        </div>
+        <ul class="dropdown-menu" aria-labelledby="dLabel">
+          <li>
+            <a class="nowrap" [routerLink]="['/dashboard-testinterview']">
+              Take Test Interview
+            </a>
+          </li>
+        </ul></div>
+    </ul>
+    <ul class="nav navbar-nav navbar-right" id="userMenu">
+      <div class="user-menu dropdown pull-right">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Apurv Burde">
+          <span class="nowrap">Apurv Burde</span>
+          <div class="profile-img pull-right">
+              <div class="no-photo" title="Apurv Burde online">AB</div>
+
+<span class="online"></span>
+          </div>
+          <div class="show-notificator badge-count notification-count hide">0</div>
+        </a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a class="show-notificator">Notifications <div class="badge-count notification-count">0</div></a>
+        </li>
+        <li><a href="#!profile/details/5a4dfbed69a8223ca7731c47" class="dropdown-link">Settings</a></li>                            <li id="languageMenu" class="eh_language_menu"><a href="#" class="dropdown-link language-dropdown-link">
+Language <span class="current-language">en</span>
+</a>
+</li>
+          <li><a class="dropdown-link" can-click="runConnectivityTest">Connectivity test</a></li>
+        <li><a href="https://easyhire.freshdesk.com/support/home" target="_blank" class="dropdown-link">Support</a></li>
+        <li><a data-target="#user-feedback-modal" data-toggle="modal" class="dropdown-link pointer">Feedback</a></li>
+        <li><a href="#!profile/changePassword" class="dropdown-link">Change Password</a></li>
+        <li><a href="/logout" class="dropdown-link go-out text-center btn btn-success">Log out</a></li>
+      </ul>
+      <div id="notificator" class="pull-right eh_notificator"><div class="dropdown">
+<a href="#" class="notificator dropdown-toggle hide" data-toggle="dropdown"></a>
+</div></div>
+    </div>
+    </ul>
+  </div>
+</nav>
+</div>

@@ -1,0 +1,15 @@
+footer{
+    background: #000000;
+    height: 50px;
+}
+
+footer a {
+    color: #fff !important;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.footertext{
+    color: #fff;
+    margin-top: 1.2%
+}
